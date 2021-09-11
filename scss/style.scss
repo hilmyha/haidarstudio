@@ -1,0 +1,30 @@
+/*
+Theme Name: haidarstudio
+Author: Hilmy Ahmad Haidar
+Version: 1.0
+Description: Kegabutan Haidar theme
+*/
+
+// variables
+$primaryColor: rgb(146, 0, 0);
+$secondaryColor: #1a2634;
+$textColor: #1a2634;
+$headingColor: white;
+
+// font
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+// style
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    background-color: whitesmoke;
+}
+
+.custom{
+    background-color: $primaryColor;
+}
+.bg-custom{
+    background-color: $primaryColor;
+}
